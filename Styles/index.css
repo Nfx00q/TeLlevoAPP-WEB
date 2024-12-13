@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Boldfinger';
+    src: url('/Fonts/Boldfinger.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+#bolded {
+    margin-top: 40px;
+    font-size: 18px;
+    font-family: 'Boldfinger';
+    color: rgb(255, 187, 0);
+    text-shadow: none;
+}
+
+body {
+    background-image: radial-gradient( circle farthest-corner at 50.3% 44.5%,  rgb(65, 65, 65) 0%, rgb(37, 37, 37) 100.2% );
+    background-size: cover;
+}
+
+.center-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+    .box {
+        width: 400px;
+        align-items: center;
+
+        h1 {
+            font-family: 'Boldfinger';
+            font-size: 30px;
+            text-align: center;
+            color: gainsboro;
+            text-shadow: 2px 2px 10px black;
+        }
+
+        h2 {
+            font-family: 'Boldfinger';
+            font-size: 70px;
+            text-align: center;
+            color: gainsboro;
+            line-height: 35px;
+            text-shadow: 2px 2px 10px black;
+        }
+
+        p {
+            margin-top: 20px;
+
+            color: gainsboro;
+            font-size: 13px;
+            font-family: sans-serif;
+            text-align: center;
+            text-shadow: 2px 2px 10px black;
+        }
+
+        button {
+            width: 100%;
+            background-color: rgb(255, 208, 0);
+            border: none;
+            color: black;
+            transition: .5s;
+        }
+
+        button:hover {
+            background-color: rgb(46, 46, 46);
+            color: rgb(255, 208, 0);
+            transition: .5s;
+        }
+    }
+}
